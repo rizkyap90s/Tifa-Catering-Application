@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wg.tifacatering">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.DetailPaidActivity"></activity>
+        <activity android:name=".activity.WaitingApprovalActivity" />
+        <activity android:name=".activity.CustomDetailOrderActivity" />
+        <activity
+            android:name=".activity.PaymentActivity"
+            android:theme="@style/withBar" />
+        <activity
+            android:name=".activity.ChooseLanguage"
+            android:theme="@style/white" />
+        <activity
+            android:name=".activity.SignInSignUpActivity"
+            android:theme="@style/red" />
+        <activity
+            android:name=".activity.KustomActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/withBar" />
+        <activity
+            android:name=".activity.DetailOrderActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/withBar" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity
+            android:name=".activity.AddressActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/withBar" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/red">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:parentActivityName=".activity.MainActivity" />
+    </application>
+
+</manifest>

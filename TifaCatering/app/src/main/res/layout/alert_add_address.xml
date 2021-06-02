@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Alamat"
+        />
+
+    <EditText
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:hint="Nama Alamat"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editnama"/>
+    <EditText
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:hint="Jalan"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editjalan"/>
+
+    <EditText
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:hint="RT / RW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editrt"/>
+
+    <EditText
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:hint="Kecamatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editkec"/>
+
+    <Spinner
+        android:elevation="10dp"
+        android:id="@+id/kota"
+        android:entries="@array/spin_kota"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <EditText
+        android:gravity="top"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:hint="Note (Optional)"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/note"/>
+
+</LinearLayout>

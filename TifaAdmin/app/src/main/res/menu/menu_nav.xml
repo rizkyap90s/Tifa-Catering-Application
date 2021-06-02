@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Request"
+        android:id="@+id/request"
+        android:icon="@drawable/ic_move_to_inbox_black_24dp"/>
+    <item
+        android:title="Pending"
+        android:id="@+id/pending"
+        android:icon="@drawable/ic_access_time_black_24dp"/>
+    <item
+        android:title="Approved"
+        android:id="@+id/approved"
+        android:icon="@drawable/ic_done_black_24dp"/>
+    <item
+        android:title="Done"
+        android:id="@+id/done"
+        android:icon="@drawable/ic_done_all_black_24dp"/>
+
+</menu>

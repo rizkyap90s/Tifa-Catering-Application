@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "933297752000",
+    "firebase_url": "https://tifacatering-8828a.firebaseio.com",
+    "project_id": "tifacatering-8828a",
+    "storage_bucket": "tifacatering-8828a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933297752000:android:9b8b46b32b8d14127aea25",
+        "android_client_info": {
+          "package_name": "com.wg.tifacatering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933297752000-i13rjbtstejvbb7kp7ltv0sji1g8igj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wg.tifacatering",
+            "certificate_hash": "b510217c6fa227a5c3d122fb2b4a117d2aa5c52f"
+          }
+        },
+        {
+          "client_id": "933297752000-aapeb0f4ie44rumkjkot3snufvsda8p5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFAtYnEoS4-kRbBk6X35DvxTAd1-TYHS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933297752000-aapeb0f4ie44rumkjkot3snufvsda8p5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

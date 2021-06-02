@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SignInSignUpActivity">
+
+
+    <FrameLayout
+        android:id="@+id/container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+
+    <TextView
+        android:padding="5dp"
+        android:backgroundTint="#717171"
+        android:background="@drawable/back_logo"
+        android:textColor="@color/white"
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEWATI"
+        android:textSize="10dp"
+        android:textStyle="bold|italic"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

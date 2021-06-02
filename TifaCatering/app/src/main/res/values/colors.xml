@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorred">#7B241C</color>
+    <color name="colorWhatsapp">#25D366</color>
+    <color name="blueSky">#2196F3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="litegray">#8E8D8D</color>
+    <color name="transparant">#00FFFFFF</color>
+    <color name="dark_transparant">#33000000</color>
+
+</resources>

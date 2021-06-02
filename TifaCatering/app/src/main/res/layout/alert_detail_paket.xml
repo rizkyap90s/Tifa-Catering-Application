@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/alert_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="18dp"
+            android:src="@drawable/tifa_logo2" />
+        <TextView
+            android:id="@+id/alert_name_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alert_detail_image"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="2dp"
+            android:text="Nama"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/cn_isi"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alert_name_detail"
+            android:layout_marginStart="25dp"
+            android:text="Isi :"
+            android:textStyle="italic"/>
+        <TextView
+            android:textStyle="italic"
+            android:id="@+id/alert_komposisi_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cn_isi"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:justificationMode="inter_word"
+            android:text="isi"/>
+        <TextView
+            android:id="@+id/alert_harga_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alert_komposisi_detail"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="30dp"
+            android:text="000000"
+            android:textSize="17dp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/alert_minimal_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alert_komposisi_detail"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="30dp"
+            android:text="0"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+</ScrollView>

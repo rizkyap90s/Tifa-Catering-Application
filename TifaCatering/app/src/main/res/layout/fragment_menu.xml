@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MenuFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="51dp"
+
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="100dp"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinner_menu"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginStart="1dp"-->
+<!--        android:layout_marginTop="1dp"-->
+<!--        android:layout_marginEnd="1dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@drawable/border_primary"-->
+<!--        android:entries="@array/Menu"-->
+<!--        android:textAlignment="center" />-->
+
+    <ImageView
+        android:id="@+id/bgmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="All"
+                    app:cornerRadius="0dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/colorred"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_nasibox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Nasi Box"
+                    app:cornerRadius="0dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/colorred"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_buffet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Buffet"
+                    app:cornerRadius="0dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/colorred"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_coffebreak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Coffebreak"
+                    app:cornerRadius="0dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/colorred"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_seminar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Seminar/Diklat/Meeting"
+                    app:cornerRadius="0dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/colorred"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_kenduri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Kenduri"
+                    app:cornerRadius="0dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/colorred"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_ater"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Ater-Ater"
+                    app:cornerRadius="0dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/colorred"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_tumpeng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Tumpeng"
+                    app:cornerRadius="0dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/colorred"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_kambing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Kambing Guling"
+                    app:cornerRadius="0dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/colorred"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</FrameLayout>
